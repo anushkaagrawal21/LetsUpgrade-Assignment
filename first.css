@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+
+    width: 100%;
+    background-color: cyan;
+    display: inline-block;
+}
+.card{
+    height: 300px;
+    width: 19%;
+    background-color: blue;
+    display: inline-block;
+}
+
+/*media queries for mobile*/
+@media (max-width: 420px){
+    .card{
+        width:100%;
+    }
+}
